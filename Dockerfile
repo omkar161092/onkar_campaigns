@@ -9,7 +9,7 @@ COPY app.py app.py
 COPY finalized_model_age.pkl finalized_model_age.pkl
 COPY finalized_model_gender.pkl finalized_model_gender.pkl
 COPY Test_data.csv Test_data.csv
-COPY templates/table.html /templates/table.html
+COPY templates/table.html templates/table.html
 COPY requirements.txt requirements.txt
 
 # Install Dependency
