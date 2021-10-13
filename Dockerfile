@@ -2,7 +2,7 @@
 FROM python:3.7-slim
 
 # Change the working directory
-WORKDIR /home/ec2-user/Capstone/
+WORKDIR /server
 
 # Copy local folder into the container
 COPY app.py app.py
